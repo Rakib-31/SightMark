@@ -23,8 +23,6 @@ public class SecondActivity extends AppCompatActivity implements View.OnClickLis
         b = (Button) findViewById(R.id.buttonIsClicked);
         name = (EditText) findViewById(R.id.nameBox);
         mail = (EditText) findViewById(R.id.mailBox);
-        // phone = (EditText) findViewById(R.id.phoneBox);
-        //age = (EditText) findViewById(R.id.ageBox);
         passward = (EditText) findViewById(R.id.passwardBox);
 
         myDatabaseHelper = new LoginClass(this);

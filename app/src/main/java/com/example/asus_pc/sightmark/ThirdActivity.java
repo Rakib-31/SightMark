@@ -53,6 +53,7 @@ public class ThirdActivity extends AppCompatActivity implements View.OnClickList
     }
 
     private boolean validity() {
+
         if (email.getText().toString().trim().length() <= 0) {
             Toast.makeText(ThirdActivity.this, "Enter username", Toast.LENGTH_LONG).show();
             return true;

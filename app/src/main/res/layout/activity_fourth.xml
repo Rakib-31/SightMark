@@ -7,6 +7,7 @@
     android:gravity="center"
     tools:context="com.example.asus_pc.sightmark.FourthActivity">
 
+
     <WebView
         android:id="@+id/webId"
         android:layout_width="match_parent"

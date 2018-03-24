@@ -12,6 +12,7 @@ public class FifthActivity extends AppCompatActivity implements View.OnClickList
     Button bt1,b24,b25,b26,b27,b28,b29,b30,b31,b32;
     ImageButton bt2,bt3,bt4,bt5,bt6,bt7,bt8,bt9,bt10;
 
+
     DatabaseStore loginHelper = new DatabaseStore(this);
     final static String[] string = new String[10];
 

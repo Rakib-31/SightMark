@@ -131,6 +131,5 @@ public class DatabaseStore extends SQLiteOpenHelper {
         long rowId = sqLiteDatabase.update(TableName,contentValues,"ID = ?",new String[] { id });
         return rowId;
     }
-
 }
 

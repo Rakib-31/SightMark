@@ -46,7 +46,6 @@ public class SixthActivity extends AppCompatActivity implements View.OnClickList
             Intent inten = new Intent(SixthActivity.this, FifthActivity.class);
             startActivity(inten);
         }
-
     }
 
     private boolean validity()

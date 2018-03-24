@@ -23,7 +23,7 @@ public class FourthActivity extends AppCompatActivity {
         String str = getIntent().getStringExtra("KEY");
         webView.loadUrl("http://"+str+"/");
     }
-    //
+
     @Override
     public void onBackPressed() {
 
